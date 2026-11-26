@@ -4,7 +4,7 @@
 
 ## 一键转换
 
-在 Windows 上将 Godot 加入 PATH（命令名为 godot），或把环境变量 GODOT_BIN 设为 Godot 可执行文件的完整路径。下载并解压本仓库，把一个 .glb 模型拖到 **Relight.cmd**。输出会出现在输入文件旁，名称为 **原名-relit.glb**。原文件保留。再次转换前请给已有输出改名。
+在 Windows 上可以把 Godot 4.6 可执行文件命名为 godot.exe，放在 Relight.cmd 旁。也可以将 Godot 加入 PATH（命令名为 godot），或把环境变量 GODOT_BIN 设为 Godot 可执行文件的完整路径。下载并解压本仓库，把一个 .glb 模型拖到 **Relight.cmd**。输出会出现在输入文件旁，名称为 **原名-relit.glb**。原文件保留。再次转换前请给已有输出改名。
 
 自动查找名字以 Crown、Foliage、Leaves 或 Leaf 开头的网格，忽略大小写。花冠若也叫 Crown，请显式指定叶网格。选择对象使用 glTF **mesh 名称**，一个 mesh 可以有多个材质面。未找到时程序会列出 mesh 名称。若枝干与叶片合在同一个 mesh，请先在建模软件中按材质拆开。
 

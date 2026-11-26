@@ -6,6 +6,7 @@ if "%~1"=="" (
   exit /b 2
 )
 set "engine=%GODOT_BIN%"
+if not defined engine if exist "%~dp0godot.exe" set "engine=%~dp0godot.exe"
 if not defined engine set "engine=godot"
 set "mesh=%~2"
 if not defined mesh set "mesh=auto"
