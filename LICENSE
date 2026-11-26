@@ -19,18 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-
-Third-party parts keep their own licences:
-
-- godot/shaders/toon.gdshaderinc, godot/shaders/trunk.gdshader and the card sway
-  and light() of godot/shaders/leaf_cards.gdshader are adapted from Dylearn's
-  3D Pixel Art Grass Demo (https://github.com/DylearnDev/Dylearn-3D-Pixel-Art-Grass-Demo),
-  Copyright (c) 2026 Dylearn, MIT License. The full notice is in
-  godot/shaders/LICENSE-Dylearn.txt.
-- The photos in photos/ and the comparison sheets in gallery/sheets/ that embed
-  them keep the licences listed in photos/README.md (CC0, public domain,
-  CC BY and CC BY-SA). They are not covered by the MIT License above.
-- output/canary_palm/accent.png is cut from a CC BY 4.0 specimen photo
-  (University of Texas at Austin, TEX LL00038242) and keeps that licence.
